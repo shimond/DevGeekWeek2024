@@ -1,0 +1,353 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{687683FD-65FB-40C4-8DF5-40B834BADD0B}|Services\\CatalogService\\CatalogService.csproj|c:\\devgeekweek2024\\dgw2024\\microservices\\services\\catalogservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{687683FD-65FB-40C4-8DF5-40B834BADD0B}|Services\\CatalogService\\CatalogService.csproj|solutionrelative:services\\catalogservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{687683FD-65FB-40C4-8DF5-40B834BADD0B}|Services\\CatalogService\\CatalogService.csproj|c:\\devgeekweek2024\\dgw2024\\microservices\\services\\catalogservice\\consumers\\consumers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{687683FD-65FB-40C4-8DF5-40B834BADD0B}|Services\\CatalogService\\CatalogService.csproj|solutionrelative:services\\catalogservice\\consumers\\consumers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{687683FD-65FB-40C4-8DF5-40B834BADD0B}|Services\\CatalogService\\CatalogService.csproj|c:\\devgeekweek2024\\dgw2024\\microservices\\services\\catalogservice\\services\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{687683FD-65FB-40C4-8DF5-40B834BADD0B}|Services\\CatalogService\\CatalogService.csproj|solutionrelative:services\\catalogservice\\services\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E81D819-9D28-4291-BB72-6583379E9AF8}|Services\\RatingService\\RatingService.csproj|c:\\devgeekweek2024\\dgw2024\\microservices\\services\\ratingservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E81D819-9D28-4291-BB72-6583379E9AF8}|Services\\RatingService\\RatingService.csproj|solutionrelative:services\\ratingservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{687683FD-65FB-40C4-8DF5-40B834BADD0B}|Services\\CatalogService\\CatalogService.csproj|c:\\devgeekweek2024\\dgw2024\\microservices\\services\\catalogservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{687683FD-65FB-40C4-8DF5-40B834BADD0B}|Services\\CatalogService\\CatalogService.csproj|solutionrelative:services\\catalogservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{687683FD-65FB-40C4-8DF5-40B834BADD0B}|Services\\CatalogService\\CatalogService.csproj|c:\\devgeekweek2024\\dgw2024\\microservices\\services\\catalogservice\\consumers\\messages\\courseratingevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{687683FD-65FB-40C4-8DF5-40B834BADD0B}|Services\\CatalogService\\CatalogService.csproj|solutionrelative:services\\catalogservice\\consumers\\messages\\courseratingevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E81D819-9D28-4291-BB72-6583379E9AF8}|Services\\RatingService\\RatingService.csproj|c:\\devgeekweek2024\\dgw2024\\microservices\\services\\ratingservice\\model\\messages\\courseratingchangedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E81D819-9D28-4291-BB72-6583379E9AF8}|Services\\RatingService\\RatingService.csproj|solutionrelative:services\\ratingservice\\model\\messages\\courseratingchangedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E81D819-9D28-4291-BB72-6583379E9AF8}|Services\\RatingService\\RatingService.csproj|c:\\devgeekweek2024\\dgw2024\\microservices\\services\\ratingservice\\services\\reviewsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E81D819-9D28-4291-BB72-6583379E9AF8}|Services\\RatingService\\RatingService.csproj|solutionrelative:services\\ratingservice\\services\\reviewsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E81D819-9D28-4291-BB72-6583379E9AF8}|Services\\RatingService\\RatingService.csproj|c:\\devgeekweek2024\\dgw2024\\microservices\\services\\ratingservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2E81D819-9D28-4291-BB72-6583379E9AF8}|Services\\RatingService\\RatingService.csproj|solutionrelative:services\\ratingservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{687683FD-65FB-40C4-8DF5-40B834BADD0B}|Services\\CatalogService\\CatalogService.csproj|c:\\devgeekweek2024\\dgw2024\\microservices\\services\\catalogservice\\model\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{687683FD-65FB-40C4-8DF5-40B834BADD0B}|Services\\CatalogService\\CatalogService.csproj|solutionrelative:services\\catalogservice\\model\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E81D819-9D28-4291-BB72-6583379E9AF8}|Services\\RatingService\\RatingService.csproj|c:\\devgeekweek2024\\dgw2024\\microservices\\services\\ratingservice\\services\\eventpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E81D819-9D28-4291-BB72-6583379E9AF8}|Services\\RatingService\\RatingService.csproj|solutionrelative:services\\ratingservice\\services\\eventpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E81D819-9D28-4291-BB72-6583379E9AF8}|Services\\RatingService\\RatingService.csproj|c:\\devgeekweek2024\\dgw2024\\microservices\\services\\ratingservice\\model\\coursereview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E81D819-9D28-4291-BB72-6583379E9AF8}|Services\\RatingService\\RatingService.csproj|solutionrelative:services\\ratingservice\\model\\coursereview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{687683FD-65FB-40C4-8DF5-40B834BADD0B}|Services\\CatalogService\\CatalogService.csproj|c:\\devgeekweek2024\\dgw2024\\microservices\\services\\catalogservice\\catalogservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{687683FD-65FB-40C4-8DF5-40B834BADD0B}|Services\\CatalogService\\CatalogService.csproj|solutionrelative:services\\catalogservice\\catalogservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E81D819-9D28-4291-BB72-6583379E9AF8}|Services\\RatingService\\RatingService.csproj|c:\\devgeekweek2024\\dgw2024\\microservices\\services\\ratingservice\\ratingservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2E81D819-9D28-4291-BB72-6583379E9AF8}|Services\\RatingService\\RatingService.csproj|solutionrelative:services\\ratingservice\\ratingservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E81D819-9D28-4291-BB72-6583379E9AF8}|Services\\RatingService\\RatingService.csproj|c:\\devgeekweek2024\\dgw2024\\microservices\\services\\ratingservice\\contracts\\ireviewsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E81D819-9D28-4291-BB72-6583379E9AF8}|Services\\RatingService\\RatingService.csproj|solutionrelative:services\\ratingservice\\contracts\\ireviewsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E81D819-9D28-4291-BB72-6583379E9AF8}|Services\\RatingService\\RatingService.csproj|c:\\devgeekweek2024\\dgw2024\\microservices\\services\\ratingservice\\config\\mongoconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E81D819-9D28-4291-BB72-6583379E9AF8}|Services\\RatingService\\RatingService.csproj|solutionrelative:services\\ratingservice\\config\\mongoconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{687683FD-65FB-40C4-8DF5-40B834BADD0B}|Services\\CatalogService\\CatalogService.csproj|c:\\devgeekweek2024\\dgw2024\\microservices\\services\\catalogservice\\datacontext\\catalogdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{687683FD-65FB-40C4-8DF5-40B834BADD0B}|Services\\CatalogService\\CatalogService.csproj|solutionrelative:services\\catalogservice\\datacontext\\catalogdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{687683FD-65FB-40C4-8DF5-40B834BADD0B}|Services\\CatalogService\\CatalogService.csproj|c:\\devgeekweek2024\\dgw2024\\microservices\\services\\catalogservice\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{687683FD-65FB-40C4-8DF5-40B834BADD0B}|Services\\CatalogService\\CatalogService.csproj|solutionrelative:services\\catalogservice\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cf577b8c-4134-11d2-83e5-00c04f9902c1}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Consumers.cs",
+              "DocumentMoniker": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\CatalogService\\Consumers\\Consumers.cs",
+              "RelativeDocumentMoniker": "Services\\CatalogService\\Consumers\\Consumers.cs",
+              "ToolTip": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\CatalogService\\Consumers\\Consumers.cs",
+              "RelativeToolTip": "Services\\CatalogService\\Consumers\\Consumers.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAnwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T14:05:39.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\CatalogService\\appsettings.json",
+              "RelativeDocumentMoniker": "Services\\CatalogService\\appsettings.json",
+              "ToolTip": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\CatalogService\\appsettings.json",
+              "RelativeToolTip": "Services\\CatalogService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-30T14:07:18.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\RatingService\\Program.cs",
+              "RelativeDocumentMoniker": "Services\\RatingService\\Program.cs",
+              "ToolTip": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\RatingService\\Program.cs",
+              "RelativeToolTip": "Services\\RatingService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T14:06:31.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CourseReview.cs",
+              "DocumentMoniker": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\RatingService\\Model\\CourseReview.cs",
+              "RelativeDocumentMoniker": "Services\\RatingService\\Model\\CourseReview.cs",
+              "ToolTip": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\RatingService\\Model\\CourseReview.cs",
+              "RelativeToolTip": "Services\\RatingService\\Model\\CourseReview.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T13:07:54.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\RatingService\\appsettings.json",
+              "RelativeDocumentMoniker": "Services\\RatingService\\appsettings.json",
+              "ToolTip": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\RatingService\\appsettings.json",
+              "RelativeToolTip": "Services\\RatingService\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-30T13:16:57.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\CatalogService\\Program.cs",
+              "RelativeDocumentMoniker": "Services\\CatalogService\\Program.cs",
+              "ToolTip": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\CatalogService\\Program.cs",
+              "RelativeToolTip": "Services\\CatalogService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T13:04:20.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CourseRatingEvent.cs",
+              "DocumentMoniker": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\CatalogService\\Consumers\\Messages\\CourseRatingEvent.cs",
+              "RelativeDocumentMoniker": "Services\\CatalogService\\Consumers\\Messages\\CourseRatingEvent.cs",
+              "ToolTip": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\CatalogService\\Consumers\\Messages\\CourseRatingEvent.cs",
+              "RelativeToolTip": "Services\\CatalogService\\Consumers\\Messages\\CourseRatingEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T14:08:43.118Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CourseRepository.cs",
+              "DocumentMoniker": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\CatalogService\\Services\\CourseRepository.cs",
+              "RelativeDocumentMoniker": "Services\\CatalogService\\Services\\CourseRepository.cs",
+              "ToolTip": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\CatalogService\\Services\\CourseRepository.cs",
+              "RelativeToolTip": "Services\\CatalogService\\Services\\CourseRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAArwCIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T13:26:33.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CourseRatingChangedEvent.cs",
+              "DocumentMoniker": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\RatingService\\Model\\Messages\\CourseRatingChangedEvent.cs",
+              "RelativeDocumentMoniker": "Services\\RatingService\\Model\\Messages\\CourseRatingChangedEvent.cs",
+              "ToolTip": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\RatingService\\Model\\Messages\\CourseRatingChangedEvent.cs",
+              "RelativeToolTip": "Services\\RatingService\\Model\\Messages\\CourseRatingChangedEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T13:31:36.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EventPublisher.cs",
+              "DocumentMoniker": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\RatingService\\Services\\EventPublisher.cs",
+              "RelativeDocumentMoniker": "Services\\RatingService\\Services\\EventPublisher.cs",
+              "ToolTip": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\RatingService\\Services\\EventPublisher.cs",
+              "RelativeToolTip": "Services\\RatingService\\Services\\EventPublisher.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAowBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T13:28:12.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CatalogService.csproj",
+              "DocumentMoniker": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\CatalogService\\CatalogService.csproj",
+              "RelativeDocumentMoniker": "Services\\CatalogService\\CatalogService.csproj",
+              "ToolTip": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\CatalogService\\CatalogService.csproj",
+              "RelativeToolTip": "Services\\CatalogService\\CatalogService.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-30T13:04:14.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReviewsRepository.cs",
+              "DocumentMoniker": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\RatingService\\Services\\ReviewsRepository.cs",
+              "RelativeDocumentMoniker": "Services\\RatingService\\Services\\ReviewsRepository.cs",
+              "ToolTip": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\RatingService\\Services\\ReviewsRepository.cs",
+              "RelativeToolTip": "Services\\RatingService\\Services\\ReviewsRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwAYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T13:11:58.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RatingService.csproj",
+              "DocumentMoniker": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\RatingService\\RatingService.csproj",
+              "RelativeDocumentMoniker": "Services\\RatingService\\RatingService.csproj",
+              "ToolTip": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\RatingService\\RatingService.csproj",
+              "RelativeToolTip": "Services\\RatingService\\RatingService.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-30T14:05:52.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MongoConfig.cs",
+              "DocumentMoniker": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\RatingService\\Config\\MongoConfig.cs",
+              "RelativeDocumentMoniker": "Services\\RatingService\\Config\\MongoConfig.cs",
+              "ToolTip": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\RatingService\\Config\\MongoConfig.cs",
+              "RelativeToolTip": "Services\\RatingService\\Config\\MongoConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T13:15:33.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\CatalogService\\Model\\Course.cs",
+              "RelativeDocumentMoniker": "Services\\CatalogService\\Model\\Course.cs",
+              "ToolTip": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\CatalogService\\Model\\Course.cs",
+              "RelativeToolTip": "Services\\CatalogService\\Model\\Course.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T13:04:24.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IReviewsRepository.cs",
+              "DocumentMoniker": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\RatingService\\Contracts\\IReviewsRepository.cs",
+              "RelativeDocumentMoniker": "Services\\RatingService\\Contracts\\IReviewsRepository.cs",
+              "ToolTip": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\RatingService\\Contracts\\IReviewsRepository.cs",
+              "RelativeToolTip": "Services\\RatingService\\Contracts\\IReviewsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T13:18:32.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\CatalogService\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "Services\\CatalogService\\GlobalUsings.cs",
+              "ToolTip": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\CatalogService\\GlobalUsings.cs",
+              "RelativeToolTip": "Services\\CatalogService\\GlobalUsings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T13:05:28.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CatalogDbContext.cs",
+              "DocumentMoniker": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\CatalogService\\DataContext\\CatalogDbContext.cs",
+              "RelativeDocumentMoniker": "Services\\CatalogService\\DataContext\\CatalogDbContext.cs",
+              "ToolTip": "C:\\devGeekWeek2024\\dgw2024\\Microservices\\Services\\CatalogService\\DataContext\\CatalogDbContext.cs",
+              "RelativeToolTip": "Services\\CatalogService\\DataContext\\CatalogDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T13:04:48.141Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
