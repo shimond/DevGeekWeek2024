@@ -3,15 +3,17 @@ using RatingService.Model;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.Configure<MongoConfig>(builder.Configuration.GetSection("Mongo"));
-builder.Services.Configure<KafkaSettings>(builder.Configuration.GetSection("KafkaSettings"));
-
+builder.AddServiceDefaults();
+builder.AddKafkaProducer<string, string>("kafka");
+builder.AddMongoDBClient("mongo-reviews");
 builder.Services.AddScoped<IReviewsRepository, ReviewsRepository>();
 builder.Services.AddScoped<IEventPublisher, EventPublisher>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+app.MapDefaultEndpoints();
 
 app.UseSwagger();
 app.UseSwaggerUI();

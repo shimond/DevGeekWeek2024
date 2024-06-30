@@ -7,21 +7,21 @@ namespace CatalogService.Consumers;
 
 public class KafkaConsumerService : BackgroundService
 {
-    private readonly IConsumer<Ignore, string> _consumer;
+    private readonly IConsumer<string, string> _consumer;
     private readonly IServiceProvider _provider;
 
-    public KafkaConsumerService(IOptions<KafkaSettings> settings, IServiceProvider provider)
+    public KafkaConsumerService(IConsumer<string, string>  consumer , IServiceProvider provider)
     {
 
         _provider = provider;
-        var config = new ConsumerConfig
-        {
-            GroupId = "subscribers",
-            BootstrapServers = settings.Value.BootstrapServers,
-            AutoOffsetReset = AutoOffsetReset.Earliest
-        };
+        //var config = new ConsumerConfig
+        //{
+        //    GroupId = "subscribers",
+        //    BootstrapServers = settings.Value.BootstrapServers,
+        //    AutoOffsetReset = AutoOffsetReset.Earliest
+        //};
 
-        _consumer = new ConsumerBuilder<Ignore, string>(config).Build();
+        _consumer = consumer;
     }
 
     protected override async Task ExecuteAsync(CancellationToken cancellationToken)
@@ -34,7 +34,7 @@ public class KafkaConsumerService : BackgroundService
             {
                 try
                 {
-                    ConsumeResult<Ignore, string> consumeResult = await GetMessage(cancellationToken);
+                    ConsumeResult<string, string> consumeResult = await GetMessage(cancellationToken);
                     var ratingChangeEvent = System.Text.Json.JsonSerializer.Deserialize<CourseRatingChangedEvent>(consumeResult.Message.Value);
 
                     Console.WriteLine($"CourseId: {ratingChangeEvent.CourseId}, AverageRating: {ratingChangeEvent.CurrentAvg}");
@@ -61,7 +61,7 @@ public class KafkaConsumerService : BackgroundService
         }
     }
 
-    private Task<ConsumeResult<Ignore, string>> GetMessage(CancellationToken cancellationToken)
+    private Task<ConsumeResult<string, string>> GetMessage(CancellationToken cancellationToken)
     {
         return Task.Factory.StartNew(()=> _consumer.Consume(cancellationToken));
     }

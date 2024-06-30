@@ -7,9 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Aspire.Confluent.Kafka" Version="8.0.2" />
+    <PackageReference Include="Aspire.MongoDB.Driver" Version="8.0.2" />
     <PackageReference Include="Confluent.Kafka" Version="2.4.0" />
     <PackageReference Include="MongoDB.Driver" Version="2.27.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Microservices.ServiceDefaults\Microservices.ServiceDefaults.csproj" />
   </ItemGroup>
 
 </Project>

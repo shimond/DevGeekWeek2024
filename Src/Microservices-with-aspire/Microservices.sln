@@ -5,9 +5,13 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B8A090D3-5CC9-47DE-85BA-3F25740ADDE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RatingService", "Services\RatingService\RatingService.csproj", "{2E81D819-9D28-4291-BB72-6583379E9AF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RatingService", "Services\RatingService\RatingService.csproj", "{2E81D819-9D28-4291-BB72-6583379E9AF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogService", "Services\CatalogService\CatalogService.csproj", "{687683FD-65FB-40C4-8DF5-40B834BADD0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CatalogService", "Services\CatalogService\CatalogService.csproj", "{687683FD-65FB-40C4-8DF5-40B834BADD0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.AppHost", "Microservices.AppHost\Microservices.AppHost.csproj", "{3393A0CA-F7DF-4B3C-8FBD-6032D0071749}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservices.ServiceDefaults", "Microservices.ServiceDefaults\Microservices.ServiceDefaults.csproj", "{94BB537C-5EBC-4D6E-8E08-414C8A767990}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +27,14 @@ Global
 		{687683FD-65FB-40C4-8DF5-40B834BADD0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{687683FD-65FB-40C4-8DF5-40B834BADD0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{687683FD-65FB-40C4-8DF5-40B834BADD0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3393A0CA-F7DF-4B3C-8FBD-6032D0071749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3393A0CA-F7DF-4B3C-8FBD-6032D0071749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3393A0CA-F7DF-4B3C-8FBD-6032D0071749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3393A0CA-F7DF-4B3C-8FBD-6032D0071749}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94BB537C-5EBC-4D6E-8E08-414C8A767990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94BB537C-5EBC-4D6E-8E08-414C8A767990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94BB537C-5EBC-4D6E-8E08-414C8A767990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94BB537C-5EBC-4D6E-8E08-414C8A767990}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
